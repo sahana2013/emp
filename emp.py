@@ -6,7 +6,7 @@ def format_employee_info(name: str, emp_id: int, department: str, salary: float)
         f"Employee Name: {name}\n"
         f"Employee ID: {emp_id}\n"
         f"Department: {department}\n"
-        f"Salary: ₹{salary:,.2f}"
+        f"Salary: {salary:,.2f}"
     )
 
 if __name__ == "__main__":
